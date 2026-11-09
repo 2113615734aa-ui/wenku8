@@ -149,7 +149,7 @@ details summary{cursor:pointer;padding:10px 12px;font-size:.85rem;font-weight:60
 (function(){
 'use strict';
 var D=JSON.parse(document.getElementById('data').textContent),
-    items=D.items,built=D.built,LZ=D.lz,GH=D.gh,REPO='mojimoon/wenku8',
+    items=D.items,built=D.built,LZ=D.lz,GH=D.gh,REPO='2113615734aa-ui/wenku8',
     $=function(i){return document.getElementById(i)},
     list=$('list'),CH=60,shown=0,view=items,flt='all',q='',qa='';
 var esc=function(s){return String(s).replace(/[&<>"']/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
